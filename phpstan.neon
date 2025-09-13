@@ -2,5 +2,7 @@ parameters:
     level: max
     paths:
         - src
-
+    excludePaths:
+        analyse:
+            - src/Traits/*.php
     reportUnmatchedIgnoredErrors: true

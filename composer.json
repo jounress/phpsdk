@@ -1,16 +1,22 @@
 {
-    "name": "jounress/phpsdk",
+    "name": "jounress/sdk-php",
     "description": "A PHP toolkit offering reusable helper functions to simplify your code.",
-    "keywords": ["php", "sdk", "library"],
+    "keywords": ["php", "sdk"],
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jorge Hernandez Lalcebo",
-            "email": "lalcebo@jounress.com"
+            "name": "Jounress Corp.",
+            "email": "contact@jounress.com",
+            "homepage": "https://jounress.com"
         }
     ],
+    "support": {
+        "forum": "https://github.com/jounress/sdk-php/discussions",
+        "issues": "https://github.com/jounress/sdk-php/issues"
+    },
     "require": {
-        "php": "^8.4.0"
+        "php": "^8.3"
     },
     "require-dev": {
         "laravel/pint": "^1.24.0",
